@@ -12,9 +12,9 @@ export default function Contact() {
         {/* Left Column - Contact Information */}
         <div className="w-full md:w-1/2">
           <div className='text-center mb-6'>
-            <h3 className="font-bold text-lg mb-4">Let's Connect</h3>
+            <h3 className="font-bold text-lg mb-4">Let&apos;s Connect</h3>
             <p className="text-gray-700 mb-6">
-              Whether you're interested in contributing, advertising, or just have a question about our content, our team is here to help.
+              Whether you&apos;re interested in contributing, advertising, or just have a question about our content, our team is here to help.
             </p>
           </div>
           <div className="space-y-6">
