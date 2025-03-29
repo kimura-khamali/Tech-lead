@@ -34,8 +34,43 @@
 // }
 
 
+// import './globals.css'
+// import type { Metadata } from 'next'
+
+// export const metadata: Metadata = {
+//   title: 'Tech Lead',
+//   description: 'Discover new insights of technology that are inspiring',
+// }
+
+// export default function RootLayout({
+//   children,
+// }: {
+//   children: React.ReactNode
+// }) {
+//   return (
+//     <html lang="en">
+//       <head>
+//         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+//       </head>
+//       <body>
+//         {children}
+//       </body>
+//     </html>
+//   )
+// }
+
+
+
 import './globals.css'
 import type { Metadata } from 'next'
+import { Inter } from 'next/font/google'
+
+// Initialize the Inter font
+const inter = Inter({
+  subsets: ['latin'],
+  display: 'swap',
+  weight: ['400', '500', '600', '700']
+})
 
 export const metadata: Metadata = {
   title: 'Tech Lead',
@@ -48,10 +83,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <head>
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
-      </head>
+    <html lang="en" className={inter.className}>
       <body>
         {children}
       </body>
