@@ -29,6 +29,8 @@
 
 import Link from 'next/link';
 
+
+
 export default function Categories() {
   const categories = [
     { id: 1, title: 'Web Development', color: 'bg-[#3366CC]', slug: 'web-development' },

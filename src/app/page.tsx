@@ -4,6 +4,9 @@ import Categories from '../components/Categories'
 import About from '../components/About'
 import Contact from '../components/Contact'
 import Footer from '../components/Footer'
+import WebDevelopmentPage from '@/pages/category/web-development'
+
+  // import WebDevelopmentPage from '@/category/web-development/page'
 
 export default function Home() {
   return (
@@ -16,6 +19,7 @@ export default function Home() {
         <Contact />
       </main>
       <Footer />
+      <WebDevelopmentPage/>
     </div>
   )
 }

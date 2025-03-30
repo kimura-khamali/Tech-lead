@@ -1,7 +1,8 @@
 // Import the required modules
 import Link from 'next/link';
-import Image from 'next/image';  // Import Image from next/image for optimized loading
-import techlead from '../../public/images/tech lead logo.png'; // Adjust this path based on your file structure
+import Image from 'next/image';  
+import techlead from '../../public/images/tech lead logo.png'; 
+
 
 export default function Navbar() {
   return (
