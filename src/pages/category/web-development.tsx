@@ -4,7 +4,7 @@ import Link from 'next/link';
 import tech from '../../../public/images/tech lead.png';
 // import techIt from '../../../public/images/tech it.png';
 import techIt from '../../../public/images/tech it.png';
-import elipses from '../../../public/images/Ellipse.png';
+// import elipses from '../../../public/images/Ellipse.png';
 
 export default function WebDevelopmentPage() {
   return (
