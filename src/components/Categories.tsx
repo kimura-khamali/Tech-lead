@@ -34,7 +34,7 @@ import Link from 'next/link';
 export default function Categories() {
   const categories = [
     { id: 1, title: 'Web Development', color: 'bg-[#3366CC]', slug: 'web-development' },
-    { id: 2, title: 'Web Development', color: 'bg-[#3366CC]', slug: 'web-development-2' },
+    { id: 2, title: 'Naturing Talent', color: 'bg-[#3366CC]', slug: 'web-development-2' },
     { id: 3, title: 'UI/UX Design', color: 'bg-[#3366CC]', slug: 'ui-ux-design' },
   ];
 

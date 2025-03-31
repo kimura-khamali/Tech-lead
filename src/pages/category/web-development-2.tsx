@@ -12,18 +12,18 @@ import Navbar from '@/components/Navbar';
 export default function WebDevelopmentPage() {
   return (
     <>
-    
+     
       <Head>
         <title>Web Development | Tech Lead</title>
         <meta name="description" content="Explore our web development services and solutions" />
       </Head>
 
       <main>
-        <Navbar/>
+      <Navbar />
         {/* Header with blue background and orange circles */}
         <div className="relative bg-[#3366CC] py-16 px-12 text-center">
           <div className="relative bg-[#3366CC] rounded-full py-6 mb-8 text-center mx-auto max-w-3xl">
-            <h1 className="text-4xl font-semibold text-white">Web Development</h1>
+            <h1 className="text-4xl font-semibold text-white">Naturing Talent</h1>
             
             {/* Left Orange Circle */}
             <div className="absolute left-10 top-1/2 transform -translate-y-1/2">
