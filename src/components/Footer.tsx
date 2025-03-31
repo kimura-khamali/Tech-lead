@@ -46,7 +46,7 @@
 
 import Link from 'next/link';
 import Image from 'next/image';
-import techlead from '../../public/images/tech lead logo.png';
+// import techlead from '../../public/images/tech lead logo.png';
 
 
 export default function Footer() {

@@ -46,7 +46,7 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import techlead from '../../public/images/tech lead logo.png';
+// import techlead from '../../public/images/tech lead logo.png';
 
 // Fix image import - use a static import with proper path
 // If the image is in the public folder, we don't need to import it directly
