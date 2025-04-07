@@ -1,52 +1,5 @@
-// import Link from 'next/link';
-
-// export default function Footer() {
-//   return (
-//     <footer className="bg-gray-800 text-white py-6 mt-12">
-//       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-//         <div className="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-12">
-//           <div>
-//             <Link href="/" className="text-lg font-medium">
-//               logo
-//             </Link>
-//           </div>
-//           <div>
-//             <Link href="#" className="text-gray-300 hover:text-white">
-//               Quick Links
-//             </Link>
-//             <Link href="#" className="text-gray-300 hover:text-white">
-//               Home
-//             </Link>
-//             <Link href="#" className="text-gray-300 hover:text-white">
-//               Categories
-//             </Link>
-//             <Link href="#" className="text-gray-300 hover:text-white">
-//               About
-//             </Link>
-//             <Link href="#" className="text-gray-300 hover:text-white">
-//               Contact
-//             </Link>
-//           </div>
-//           <div>
-//             <Link href="#categories" className="text-gray-300 hover:text-white">
-//               Categories
-//             </Link>
-//           </div>
-//           <div>
-//             <Link href="#" className="text-gray-300 hover:text-white">
-//               CMS
-//             </Link>
-//           </div>
-//         </div>
-//       </div>
-//     </footer>
-//   );
-// }
-
-
 import Link from 'next/link';
 import Image from 'next/image';
-// import techlead from '../../public/images/tech lead logo.png';
 
 
 export default function Footer() {
@@ -139,10 +92,10 @@ export default function Footer() {
           <div className="col-span-1">
             <h3 className="text-lg font-medium mb-4">Contact Us</h3>
             <address className="not-italic text-gray-300">
-              <p>123 Business Street</p>
-              <p>New York, NY 10001</p>
-              <p className="mt-2">contact@yourcompany.com</p>
-              <p>+1 (555) 123-4567</p>
+              <p>Rongai Road</p>
+              <p>Nairobi</p>
+              <p className="mt-2">contact@tech-lead.com</p>
+              <p>+254 (7) 123-4567</p>
             </address>
           </div>
         </div>
